@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#title {
+    margin-bottom: 20px;
+}
+
+#registration {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#game {
+    display: none;
+}
+
+#scoreboard {
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#coin {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#topPlayers {
+    display: none;
+    margin-top: 20px;
+}
+
+#playerList {
+    list-style: none;
+    padding: 0;
+}
+
+#playerList li {
+    margin-bottom: 5px;
+}
